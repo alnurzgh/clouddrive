@@ -1,0 +1,12 @@
+django>=4.2
+djangorestframework
+celery[redis]
+redis
+psycopg2-binary
+boto3
+Pillow
+python-magic-bin
+django-redis
+djangorestframework-simplejwt
+django-cors-headers
+python-decouple
