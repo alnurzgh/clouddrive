@@ -1,6 +1,6 @@
 import { useState, useRef, useCallback, useEffect } from "react";
 
-const API = "http://localhost:8000/api";
+const API = import.meta.env.VITE_API_URL || "http://localhost:8000/api";
 
 function getToken() { return localStorage.getItem("cd_token"); }
 function setToken(t) { localStorage.setItem("cd_token", t); }
